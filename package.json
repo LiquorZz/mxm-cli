@@ -1,20 +1,20 @@
 {
   "name": "mxm-cli",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "liquorxm personal cli",
   "_main": "index.js",
   "scripts": {
     "build": "tsc -d",
     "build:w": "tsc -d -w",
     "start": "ts-node src/bin/mxm.ts",
-    "release": "del dist && npm run build",
+    "release": "rm -rf dist && npm run build",
     "clean": "ts-node src/bin/clean.ts",
     "check": "npm run build && npm run lint",
     "prepublish": "npm run release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "mxm": "dist/src/bin/mxm.js"
+    "mxm": "./dist/src/bin/mxm.js"
   },
   "repository": {
     "type": "git",
@@ -53,5 +53,8 @@
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "lerna": "^3.22.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
