@@ -1,8 +1,8 @@
 {
   "name": "mxm-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "liquorxm personal cli",
-  "_main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "build": "tsc -d",
     "build:w": "tsc -d -w",
