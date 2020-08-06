@@ -1,6 +1,6 @@
 {
   "name": "mxm-cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "liquorxm personal cli",
   "main": "index.ts",
   "scripts": {
