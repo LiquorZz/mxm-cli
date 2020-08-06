@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    // "lib": ["es2017", "DOM", "ES2015"],
+    "module": "commonjs",
+    // "target": "es6",
+    "outDir": "dist",
+    "target": "esnext",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "jsx": "react",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "exclude": ["node_modules", "e2e", "dist", "**/*.spec.ts", "lib", "fixtures", "examples","src/templates/**"]
+}
