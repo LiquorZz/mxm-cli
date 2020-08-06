@@ -1,6 +1,6 @@
 {
   "name": "mxm-cli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "liquorxm personal cli",
   "main": "index.ts",
   "scripts": {
@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "mxm": "bin/mxm.js"
+    "mxm": "./dist/src/bin/mxm.js"
   },
   "repository": {
     "type": "git",
