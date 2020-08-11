@@ -11,6 +11,7 @@ CONTRIBUTE.md
 **/*.ts
 *.ts
 /test
+/src
 
 # definitions
 !**/*.d.ts

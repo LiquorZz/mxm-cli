@@ -18,5 +18,9 @@
     "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true
   },
+  "include": [
+    "./src/**/*",
+    "typings/**/*"
+  ],
   "exclude": ["node_modules", "e2e", "dist", "**/*.spec.ts", "lib", "fixtures", "examples","src/templates/**"]
 }
