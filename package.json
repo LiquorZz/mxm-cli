@@ -1,6 +1,6 @@
 {
   "name": "mxm-cli",
-  "version": "0.0.8-beta0.1",
+  "version": "0.0.8-beta0.2",
   "description": "liquorxm personal cli",
   "main": "index.ts",
   "scripts": {
@@ -10,7 +10,7 @@
     "release": "rm -rf dist && npm run build",
     "clean": "ts-node src/bin/clean.ts",
     "check": "npm run build && npm run lint",
-    "prepublish": "npm run release",
+    "prepare": "npm run release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
@@ -39,6 +39,7 @@
     "globby": "^11.0.1",
     "ink": "^2.7.1",
     "mkdirp": "^1.0.4",
+    "moment": "^2.27.0",
     "nunjucks": "^3.2.1",
     "react": "^16.13.1",
     "react-redux": "^7.2.1",
