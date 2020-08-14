@@ -5,6 +5,8 @@ node_modules/
 .DS_Store
 *.map
 yarn-error.log
+package-lock.json
+yarn.lock
 
 # output
 # lib/**/*.js
